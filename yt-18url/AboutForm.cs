@@ -13,7 +13,7 @@ namespace yt_18url
             this.MaximizeBox = false;
 
             labelAppName.Text = "yt-18url";
-            labelVersion.Text = "バージョン: 1.0.0.1";
+            labelVersion.Text = "バージョン: 1.0.0.2";
             labelAuthor.Text = "制作者: yumayuma34";
             labelYtDlpVersion.Text = "yt-dlp バージョン: " + GetYtDlpVersionSafe();
             textBoxDisclaimer.Text =

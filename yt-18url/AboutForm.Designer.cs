@@ -26,6 +26,8 @@ namespace yt_18url
             this.labelAuthor = new System.Windows.Forms.Label();
             this.labelYtDlpVersion = new System.Windows.Forms.Label();
             this.textBoxDisclaimer = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelAppName
@@ -71,9 +73,20 @@ namespace yt_18url
             this.textBoxDisclaimer.Size = new System.Drawing.Size(350, 120);
             this.textBoxDisclaimer.TabIndex = 4;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(275, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // AboutForm
             // 
             this.ClientSize = new System.Drawing.Size(400, 300);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelAppName);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.labelAuthor);
@@ -83,9 +96,12 @@ namespace yt_18url
             this.Name = "AboutForm";
             this.Text = "バージョン情報";
             this.Load += new System.EventHandler(this.AboutForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
+
+        private PictureBox pictureBox1;
     }
 }
