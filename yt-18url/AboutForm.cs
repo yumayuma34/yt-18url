@@ -13,7 +13,7 @@ namespace yt_18url
             this.MaximizeBox = false;
 
             labelAppName.Text = "yt-18url";
-            labelVersion.Text = "バージョン: 1.0.0.0";
+            labelVersion.Text = "バージョン: 1.0.0.1";
             labelAuthor.Text = "制作者: yumayuma34";
             labelYtDlpVersion.Text = "yt-dlp バージョン: " + GetYtDlpVersionSafe();
             textBoxDisclaimer.Text =
@@ -32,6 +32,11 @@ namespace yt_18url
             {
                 return "取得できませんでした";
             }
+        }
+
+        private void AboutForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

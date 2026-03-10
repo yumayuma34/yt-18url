@@ -9,7 +9,7 @@ namespace yt_18url
             var psi = new ProcessStartInfo
             {
                 FileName = "yt-dlp",
-                Arguments = $"--no-warnings --get-url -f 18 \"{inputUrl}\"",
+                Arguments = "--no-warnings --get-url -f \"best[ext=mp4][acodec!=none][vcodec!=none]\" \"" + inputUrl + "\"",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,
