@@ -4,6 +4,8 @@
 
 yt-dlpを使用し、YouTubeのURLから、googlevideo.comの動画配信サーバーURLを取得するためのWindows向けGUIツールです。  
 
+<img width="1176" height="514" alt="image" src="https://github.com/user-attachments/assets/b837dd0a-c731-4c03-a149-0ae2fbf3b90d" />
+
 ---
 
 ## 使い方
